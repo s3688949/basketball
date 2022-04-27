@@ -1,7 +1,9 @@
-<title>Gmail</title>
-
-<div style="border: 3px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-<iframe scrolling="no" src="https://bleacherreport.com/nba" style="border: 0px none; margin-left: 0; height: 245px; margin-top: -120px; width: 100%; margin-bottom -500;">
+<head>
+  <title>Gmail</title>
+  <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico">
+</head>
+<div style="overflow: hidden; max-width: 100%; margin-left: -513px; margin-right: ‒400px;">
+<iframe scrolling="no" src="https://www.foxsports.com.au/basketball" style="border: 0px none; height: 90px; margin-top: 0px; width: 100%;">
 </iframe>
 </div>
 
@@ -43,10 +45,24 @@
 <h3>If the stream dies, sorry, I don't host it</h3>
 <h3>If you send this W/O permission I will password gate it. pls don't. Everyone will lose access to it and this is pretty f'in convinient</h3>
 <h3>It will forever default to Dallas games, there's no need to thank me.</h3>
+<h3>Some elements are of center and weird on this page? or on my phone? Well it's built with my PC monitor in mind. The fact the video works on phone is just a bonus</h3>
 
-<h1>Scoreboard (Today/Most Recent)</h1>
-<iframe sandbox='allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation' frameborder=0 height=90% width=90% src='https://www.foxsports.com.au/score-centre/basketball/nba' allowfullscreen scrolling=no allowtransparency></iframe>
+<h1>Playoff Bracket</h1>
+
+<div style="overflow: hidden; max-width: 100%; height:calc(100% - 500px);">
+<iframe scrolling="no" src="https://clutchpoints.com/sports/nba/playoffs/" style="border: 0px none; margin-left: 0; height: calc(100% + 320px ); margin-top: -160px; width: 100%;">
+</iframe>
+</div>
+
+<h1>Todays Scores</h1>
+
+<div style="overflow: hidden; max-width: 100%;">
+<iframe scrolling="no" src="https://suntimes.sportsdirectinc.com/sports-scores/Basketball-Scores-Matchups.aspx" style="border: 0px none; margin-left: 0; height: calc(200%); margin-top: -600px; width: 100%;">
+</iframe>
+</div>
+
 <script>
+
 function myFunction() {
     var x = document.getElementById("mySelect").value;
     document.getElementById("game").innerHTML = x ;
